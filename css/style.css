@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+header {
+    height: 10vh;
+    background-color: white;
+}
+
+.content_header {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    height: 100%;
+    background-color: tomato;
+}
+
+.content_header>div {
+    display: flex;
+    align-items: end;
+    height: 50%;
+    border: 1px solid white;
+}
+
+.middle_header {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
